@@ -1,0 +1,6 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body { font-family: Inter, 'PingFang SC', sans-serif; }
+.card { @apply bg-slate-900 border border-slate-800 rounded-lg p-4; }

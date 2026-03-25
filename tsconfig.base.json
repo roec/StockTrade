@@ -17,6 +17,7 @@
       "@stock/signal-engine": ["packages/signal-engine/src"],
       "@stock/ui": ["packages/ui/src"],
       "@stock/config": ["packages/config/src"]
+      "@stock/signal-engine": ["packages/signal-engine/src"]
     }
   }
 }

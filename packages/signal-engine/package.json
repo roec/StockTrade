@@ -1,0 +1,16 @@
+{
+  "name": "@stock/signal-engine",
+  "version": "0.1.0",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "typecheck": "tsc -p tsconfig.json --noEmit",
+    "test": "vitest run"
+  },
+  "dependencies": {
+    "@stock/shared-types": "workspace:*",
+    "@stock/shared-utils": "workspace:*"
+  },
+  "devDependencies": { "vitest": "^3.0.9" }
+}

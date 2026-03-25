@@ -14,6 +14,9 @@
       "@stock/shared-types": ["packages/shared-types/src"],
       "@stock/shared-utils": ["packages/shared-utils/src"],
       "@stock/indicator-engine": ["packages/indicator-engine/src"],
+      "@stock/signal-engine": ["packages/signal-engine/src"],
+      "@stock/ui": ["packages/ui/src"],
+      "@stock/config": ["packages/config/src"]
       "@stock/signal-engine": ["packages/signal-engine/src"]
     }
   }
